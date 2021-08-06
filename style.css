@@ -1,0 +1,65 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 18px;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+  font-size: 48px;
+}
+
+
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 1440px;
+}
+
+.logo {
+  margin-top: -250px;
+  text-align: center;
+  z-index: 1000;
+}
+
+.heading {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.heading h3 {
+  margin: auto;
+  width: 52%;
+}
+
+.button-heading {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.btn {
+  border: none;
+  border-radius: 50px;
+  color: white;
+  padding: 18px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-weight: 600;
+  margin-right: 12px;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.btn-green {
+  background-color: hsl(171, 66%, 44%); /* Green */
+}
+
+.btn-blue {
+  background-color: hsl(233, 100%, 69%); /* Green */
+}
