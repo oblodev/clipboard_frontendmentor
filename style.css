@@ -4,14 +4,35 @@
 
 body {
   font-size: 18px;
-  font-family: 'Bai Jamjuree', sans-serif;
+  font-family: "Bai Jamjuree", sans-serif;
+  color: hsl(210, 10%, 33%);
+  margin: 0;
+  padding: 0;
 }
 
 h1 {
   font-size: 48px;
 }
 
+h2 {
+  font-size: 42px;
+}
 
+p {
+  margin: 0;
+}
+
+.m-200 {
+  margin-top: 200px;
+}
+
+.m-100 {
+  margin-top: 100px;
+}
+
+.t-center {
+  text-align: center;
+}
 
 .container {
   margin-left: auto;
@@ -25,7 +46,8 @@ h1 {
   z-index: 1000;
 }
 
-.heading {
+.heading,
+.heading-low {
   padding-top: 20px;
   text-align: center;
 }
@@ -33,6 +55,13 @@ h1 {
 .heading h3 {
   margin: auto;
   width: 52%;
+  color: hsl(201, 11%, 66%);
+}
+
+.heading-low h3 {
+  margin: auto;
+  width: 42%;
+  color: hsl(201, 11%, 66%);
 }
 
 .button-heading {
@@ -62,4 +91,130 @@ h1 {
 
 .btn-blue {
   background-color: hsl(233, 100%, 69%); /* Green */
+}
+
+.info {
+  margin-top: 200px;
+  text-align: center;
+}
+
+.info-text h2 {
+  font-size: 38px;
+}
+
+.info-text h4 {
+  margin: auto;
+  width: 52%;
+  color: hsl(201, 11%, 66%);
+}
+
+.monitor-wrap {
+  margin-top: 200px;
+  display: flex;
+  flex-direction: row;
+}
+
+.monitor-text {
+  text-align: left;
+  padding-left: 100px;
+  padding-top: 30px;
+}
+
+.monitor-text h6 {
+  font-size: 22px;
+  font-weight: 600;
+  margin: 0;
+  padding-top: 40px;
+}
+
+.monitor-text p {
+  width: 70%;
+  color: hsl(201, 11%, 66%);
+}
+
+.tablet {
+  margin-top: 160px;
+}
+
+.tablet-wrap {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+}
+
+.pre-wrap {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.wraping:first-child img {
+  margin: 20px;
+}
+
+.wraping:nth-child(2) img {
+  margin: 24px;
+}
+
+.wraping:nth-child(3) img {
+  margin: 24px;
+}
+
+.wraping {
+  width: 60%;
+  padding-right: 30px;
+}
+
+.wraping p {
+  color: hsl(201, 11%, 66%);
+}
+
+.logos-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.logos-wrapper div {
+  margin-right: 80px;
+}
+
+.heading-low {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.heading-low p {
+  color: hsl(201, 11%, 66%);
+  width: 60%;
+  text-align: center;
+}
+
+.footer-wrap {
+  background-color: hsl(214, 33%, 96%);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-wrap .footer-logo {
+  margin-left: 100px;
+}
+
+.footer-wrap .footer-logo img {
+  height: 60px;
+  margin-top: 40px;
+}
+
+.footer-wrap .nav {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-wrap .nav div {
+  display: inline-block;
 }
