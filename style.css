@@ -26,6 +26,10 @@ p {
   margin-top: 200px;
 }
 
+.m-150 {
+  margin-top: 150px;
+}
+
 .m-100 {
   margin-top: 100px;
 }
@@ -192,29 +196,56 @@ p {
   text-align: center;
 }
 
+footer {
+  margin-bottom: 10px;
+}
+
 .footer-wrap {
   background-color: hsl(214, 33%, 96%);
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
-}
-
-.footer-wrap .footer-logo {
-  margin-left: 100px;
+  justify-content: space-around;
 }
 
 .footer-wrap .footer-logo img {
   height: 60px;
-  margin-top: 40px;
+  margin: 40px 0 40px 0;
 }
 
 .footer-wrap .nav {
-  margin-top: 40px;
+  margin: 40px 0 40px 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
 }
 
 .footer-wrap .nav div {
   display: inline-block;
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+}
+
+.footer-wrap .nav div a {
+  text-decoration: none;
+  color: hsl(210, 10%, 33%);
+  font-weight: 600;
+  line-height: 2;
+}
+
+.footer-wrap .nav div a:hover {
+  cursor: pointer;
+  color: hsl(171, 66%, 44%);
+}
+
+.footer-wrap .socials {
+  margin: 40px 0 40px 0;
+}
+
+.footer-wrap .socials svg {
+  margin-right: 20px;
+}
+
+.icon:hover {
+  cursor: pointer;
+  fill: hsl(171, 66%, 44%);
 }
