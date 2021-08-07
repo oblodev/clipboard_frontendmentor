@@ -124,10 +124,15 @@ p {
   flex-direction: row;
 }
 
+.monitor-img {
+  overflow: hidden;
+  direction: rtl;
+}
+
 .monitor-text {
   text-align: left;
-  padding-left: 100px;
   padding-top: 30px;
+  padding-left: 80px;
 }
 
 .monitor-text h6 {
