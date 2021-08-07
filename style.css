@@ -91,6 +91,12 @@ p {
 
 .btn-green {
   background-color: hsl(171, 66%, 44%); /* Green */
+  transition: 0.3s;
+}
+
+.btn-green:hover {
+  -webkit-box-shadow: 5px 5px 15px -6px #26baa4;
+  box-shadow: 5px 5px 15px -6px #26baa4;
 }
 
 .btn-blue {
