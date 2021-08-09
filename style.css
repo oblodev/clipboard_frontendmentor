@@ -191,7 +191,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  padding: 0 00px 0 80px;
+  padding: 0 60px 0 60px;
 }
 
 .logos-wrapper div {
