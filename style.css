@@ -163,6 +163,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 0 100px 0 100px;
 }
 
 .wraping:first-child img {
@@ -190,6 +191,7 @@ p {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  padding: 0 00px 0 80px;
 }
 
 .logos-wrapper div {
