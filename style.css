@@ -332,8 +332,7 @@ footer {
   }
 
   .monitor-img img {
-    width: 400px;
-    margin-left: 50px;
+    max-width: 400px;
   }
 
   .monitor-text {
@@ -365,8 +364,6 @@ footer {
 
   .tablet-wrap img {
     max-width: 420px;
-    margin-left: 20px;
-    overflow: hidden;
   }
 
   .pre-wrap {
