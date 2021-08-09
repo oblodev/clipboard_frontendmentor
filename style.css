@@ -275,6 +275,14 @@ footer {
   fill: hsl(171, 66%, 44%);
 }
 
+@media (min-width: 801px) and (max-width: 1198px) {
+  .container {
+    max-width: 1198px;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
 @media screen and (max-width: 800px) {
   h1 {
     font-size: 46px;
