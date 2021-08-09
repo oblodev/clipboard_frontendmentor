@@ -8,6 +8,8 @@ body {
   color: hsl(210, 10%, 33%);
   margin: 0;
   padding: 0;
+  width: 100%;
+  height: 100%;
 }
 
 h1 {
@@ -41,7 +43,7 @@ p {
 .container {
   margin-left: auto;
   margin-right: auto;
-  width: 1440px;
+  max-width: 1440px;
 }
 
 .logo {
@@ -271,4 +273,167 @@ footer {
 .icon:hover {
   cursor: pointer;
   fill: hsl(171, 66%, 44%);
+}
+
+@media screen and (max-width: 800px) {
+  h1 {
+    font-size: 46px;
+  }
+
+  h2 {
+    font-size: 36px;
+  }
+
+  h3 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+
+  .container {
+    max-width: 800px;
+    overflow-x: hidden;
+    position: relative;
+  }
+
+  .heading h3 {
+    width: 90%;
+    line-height: 1.8;
+  }
+
+  .button-heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .btn-green,
+  .btn-blue {
+    margin: auto;
+    width: 80%;
+    margin-top: 20px;
+  }
+
+  .info-text h4 {
+    width: 80%;
+    font-size: 20px;
+    line-height: 1.8;
+  }
+
+  .monitor-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .monitor-img {
+    direction: initial;
+  }
+
+  .monitor-img img {
+    width: 400px;
+    margin-left: 50px;
+  }
+
+  .monitor-text {
+    text-align: center;
+    padding-top: 10px;
+    padding-left: 0;
+  }
+
+  .monitor-text p {
+    text-align: center;
+    width: 100%;
+    padding: 0 40px 0 40px;
+  }
+
+  .monitor-text h6 {
+    font-size: 28px;
+    padding-bottom: 20px;
+  }
+
+  .tablet {
+    margin-top: 80px;
+  }
+
+  .tablet-wrap {
+    margin-left: 0;
+    margin-right: 0;
+    margin-top: 20px;
+  }
+
+  .tablet-wrap img {
+    max-width: 420px;
+    margin-left: 20px;
+    overflow: hidden;
+  }
+
+  .pre-wrap {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .wraping {
+    width: 100%;
+    padding: 20px 40px 20px 40px;
+  }
+
+  .wraping h4 {
+    font-size: 24px;
+    margin: 0;
+    padding: 30px 0 30px 0;
+  }
+
+  .logos {
+    margin-top: 140px;
+  }
+
+  .logos-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .logos-wrapper div {
+    margin-right: 0px;
+    text-align: center;
+  }
+
+  .logos-wrapper div img {
+    padding-bottom: 60px;
+  }
+
+  .heading-low {
+    margin-top: 100px;
+  }
+
+  .heading-low h2 {
+    padding: 20px;
+  }
+
+  .heading-low h3 {
+    width: 80%;
+  }
+
+  .footer-wrap {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .footer-wrap .nav {
+    display: block;
+    text-align: center;
+    margin: 10px 0 10px 0;
+  }
+
+  .footer-wrap .nav div {
+    margin-right: 0;
+  }
+
+  .footer-wrap .socials {
+    text-align: center;
+    margin: 20px 0 40px 0;
+  }
 }
