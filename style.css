@@ -56,13 +56,13 @@ p {
   text-align: center;
 }
 
-.heading h3 {
+.heading p {
   margin: auto;
   width: 52%;
   color: hsl(201, 11%, 66%);
 }
 
-.heading-low h3 {
+.heading-low p {
   margin: auto;
   width: 42%;
   color: hsl(201, 11%, 66%);
@@ -112,7 +112,7 @@ p {
   font-size: 38px;
 }
 
-.info-text h4 {
+.info-text p {
   margin: auto;
   width: 52%;
   color: hsl(201, 11%, 66%);
